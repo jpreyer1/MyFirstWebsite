@@ -8,11 +8,20 @@
      <link rel="stylesheet" href="css/main.css">
  <link rel="stylesheet" href="css/responsive.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        alert("You are on the About page.");
+    });
+});
+</script>
   </head>
   <body>
     <header>
     
-	<a ref="index.html"></a>
+	<a ref="index.html" id="logo"></a>
  <h1>JOANN PREYER</h1>
       <h2>FRONT END WEB DEVELOPER</h2>
 	 
@@ -20,7 +29,7 @@
      <div id="main">
       <nav>
         <ul>
-          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html" class="selected">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li> <a href="resume.html">RESUME</a></li>
           <li><a href="contact.html">CONTACT</a></li>
