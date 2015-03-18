@@ -33,13 +33,27 @@
 	
 	<section>
     <body>
+	
       <br>
       <br>
+	   <button onclick="myFunction()">Click Me!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter your name", "");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+}
+</script>
       <br>
     
     <img src="Images/jpreyer3.jpg" alt="Photograph of Joann" class="profile-photo">
    </section>
-   
+  
    
   <footer>
     <a href="http://twitter.com/jloveandbeauty"><img src="Images/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
