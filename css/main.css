@@ -17,8 +17,11 @@ a {
 	}
 
 
- li a:hover, a:visited {
+ a:hover, a:visited {
 color: black;
+font-weight: bold;
+padding: 4px;
+text-align: center;
 background-color: #B29800;
 text-decoration: underline;
 
@@ -39,10 +42,11 @@ color: white;
 nav ul {
 color: black;
 background-color: white;
+margin-right: 4px;
 display: block;
 font-size: 20px;
-height: 150%;
-box-sizing: border-box;
+height: 100%;
+border-radius: 4px 4px 0 0;
 }
 
 }
